@@ -1,0 +1,384 @@
+#menu img {
+  height: 96px;
+  font-size: 20px;
+}
+#menu ul {
+  margin-left: 750px;
+}
+#menu a {
+  color: black;
+  font-size: 13px;
+  font-weight: normal;
+}
+#menu a:hover {
+  color: #d6b161;
+}
+#menu .navbar {
+  background-color: white;
+  height: 67px;
+}
+
+#carouselId li {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+}
+#carouselId h3 {
+  transform: translateY(50px);
+  transition: all 0.5s;
+}
+#carouselId .carousel-caption {
+  color: black;
+  text-align: left;
+  top: 38%;
+}
+
+#section {
+  padding-top: 150px;
+}
+#section #Team {
+  padding-bottom: 150px;
+}
+#section #Team .content-start {
+  text-align: center;
+}
+#section #Team .content-start h3 {
+  font-weight: normal;
+  margin-bottom: 48px;
+}
+
+#section #Team .container {
+  padding-bottom: 320px;
+}
+#section #Team .c1-start {
+  position: relative;
+  padding: 30px;
+  border: 1px solid #e9e9e9;
+  border-radius: 4px;
+}
+#section #Team .col-md-4 {
+  float: left;
+  width: 33.33%;
+  padding-top: 100px;
+  position: relative;
+}
+#section #Team .col-md-4 {
+  float: left;
+  width: 33.33%;
+  padding-top: 100px;
+  position: relative;
+}
+#section #Team .col-md-4:hover .icon-start {
+  background-color: #d6b161;
+}
+#section #Team .icon-start {
+  position: absolute;
+  top: -30px;
+  left: 30px;
+  width: 76px;
+  height: 76px;
+  text-align: center;
+  border-radius: 4px;
+  background: #222;
+  box-shadow: 0 0 0 10px #fff;
+  line-height: 60px;
+}
+#section #Team i {
+  color: white;
+  font-size: 66px;
+}
+#section #Team h4 {
+  margin-top: 62px;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+  font-weight: normal;
+  font-size: 18px;
+}
+#section #Team p {
+  color: #7e7e7e;
+}
+
+#section #About {
+  overflow: hidden;
+  height: 100vh;
+  width: 100%;
+  background-image: url(../images/background.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 50% 50%;
+  background-size: cover;
+}
+#section #About .About-page {
+  float: left;
+  width: 100%;
+  position: relative;
+}
+#section #About .dark-overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 100vh;
+  content: "";
+  background: rgba(0, 0, 0, 0.5);
+}
+#section #About .space {
+  padding-top: 119px;
+}
+#section #About h3 {
+  color: white;
+  letter-spacing: 6px;
+  vertical-align: middle;
+  text-align: center;
+  font-weight: normal;
+  font-size: 24px;
+  padding-top: 282px;
+}
+#section #About h4 {
+  color: white;
+  letter-spacing: 2px;
+  vertical-align: middle;
+  font-weight: normal;
+  font-size: 18px;
+}
+#section #About .c1 {
+  padding: 30px;
+}
+#section #About p {
+  color: white;
+  vertical-align: middle;
+  font-weight: 400;
+  font-size: 15px;
+  margin-top: 60px;
+}
+#section #About .progress {
+  margin-bottom: 58px;
+  height: 32px;
+}
+#section #About .progress-bar {
+  width: 0;
+  animation: progress 0.9s ease-in-out forwards;
+  max-width: 80%;
+  background-color: white;
+  color: black;
+}
+#section #About .title {
+  opacity: 0;
+  animation: show 0.35s forwards ease-in-out 0.5s;
+}
+@keyframes progress {
+  from{ 
+      width: 0;
+  }to{
+      width: 100%;
+  }
+}
+@keyframes show {
+    from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+}
+
+#section #OurTeam{
+  background: #f5f5f5;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#section .OurTeam-title h4{ 
+  text-align: center;
+  font-weight: 400;
+  padding-top: 80px;
+  padding-bottom: 20px;
+}
+#section .OurTeam-title p{ 
+  text-align: center;
+  padding-bottom: 60px;
+  color: #7e7e7e;
+}
+
+#section .OurTeam-Pic .ourteam-intro{
+  position: absolute;
+  left: 108px;
+  top: 350px;
+  color: white;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 13px 12px;
+  width: 265px;
+  text-align: right;
+}
+#section .OurTeam-Pic .ourteam-img{
+  position: relative;
+}
+#OurTeam .flex-container{
+  display: flex;
+  justify-content: center;
+}
+#OurTeam .ourteam-hover{
+  position: absolute;
+  top: 0;
+  right: -4px;
+  bottom: 0px;
+  left: 15px;
+  margin: 0;
+  transition: all 0.3s;
+  opacity: 0;
+  border: 20px solid rgba(0, 0, 0, 0.1);
+  background-color: rgba(255, 255, 255, 0.9);
+  transition: all 0.5s;
+}
+#OurTeam .ourteam-hover:hover{
+  opacity: 1;
+}
+#OurTeam .ourteam-hover:hover h4{
+  padding-top: 80px;
+}
+#OurTeam .ourteam-content{
+  text-align: center;
+  font-weight: normal;
+  line-height: 1.5;
+}
+#OurTeam .icon{
+  text-align: center;
+  padding-top: 118px;
+  font-size: 21px;
+  bottom: 0;
+}
+#OurTeam i {
+  padding: 18px;
+}
+#OurTeam i:hover {
+  color: #d6b161;
+}
+
+#portfolio{
+  padding-top: 100px ;
+  padding-bottom: 100px;
+}
+
+#portfolio * {
+  box-sizing: border-box;
+}
+
+
+#portfolio .heading-title{
+  text-align: center;
+  padding-bottom: 100px;
+}
+
+#portfolio body{
+  background-color: #f1f1f1;
+  padding: 20px;
+  font-family: Arial;
+}
+
+
+#portfolio h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+#portfolio .main{
+  margin: auto;
+}
+
+#myBtnContainer {
+  text-align: center;
+}
+
+#portfolio .row{
+  margin: 10px 0 -16px 0px;
+}
+
+#portfolio .row,
+#portfolio .row > .column{
+  padding: 8px;
+}
+
+#portfolio .column{
+  float: left;
+  width: 25%;
+  display: none;
+}
+
+#portfolio .row::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#portfolio .content{
+  background-color: white;
+  padding: 10px;
+  text-align: center;
+  color: #222;
+  font-weight: normal;
+  line-height: 1.5;
+  letter-spacing: 5px;
+  position: relative;
+}
+
+#portfolio .show {
+  display: block;
+}
+
+#portfolio .btn{
+  padding: 12px 16px;
+  color: #a9a8a8;
+  letter-spacing: 3px;
+  font-size: 16px;
+}
+
+#portfolio .btn:hover{
+  color: black;
+}
+
+#portfolio .btn.active{
+  color: black;
+
+}
+
+#portfolio .Portfo-hover{
+  position: absolute;
+  top: 11px;
+  right: 10px;
+  bottom: 10px;
+  left: 9px;
+  margin: 0;
+  transition: all 0.3s;
+  opacity: 0;
+  border: 20px solid rgba(0,0,0,0.1);
+  background-color: rgba(255, 255, 255 , 0.9);
+  transition: all 0.5s;
+}
+
+#portfolio .Portfo-hover:hover{
+  opacity: 1;
+}
+
+#portfolio h4{
+  font-size: 15px
+}
+
+#portfolio h4:hover{
+  color: #d6b161;
+}
+
+#portfolio a {
+  color: black;
+  font-size: 14px;
+  padding-top: 10px;
+  text-decoration: none;
+}
+#portfolio a:hover {
+  color: #d6b161;
+}
+
+#portfolio i {
+  padding-top: 55px;
+  padding-bottom: 36px;
+  font-size: 39px;
+}
