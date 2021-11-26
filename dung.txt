@@ -1,0 +1,32 @@
+// server.replace("EditProfile", 
+//     server.middleware.https,
+//     csrfProtection.generateToken,
+//     userLoggedIn.validateLoggedIn,
+//     consentTracking.consent,
+//     function (req, res, next) {
+//         var Resource = require('dw/web/Resource');
+//         var URLUtils = require('dw/web/URLUtils');
+//         var accountModel = getModel(req);
+//         var profileForm = server.forms.getForm('profile');
+//         profileForm.clear();
+//         profileForm.customer.firstname.value = accountModel.profile.firstName;
+//         profileForm.customer.lastname.value = accountModel.profile.lastName;
+//         profileForm.customer.phone.value = accountModel.profile.phone;
+//         profileForm.customer.email.value = accountModel.profile.email;
+//         profileForm.customer.membershipLevel.value = accountModel.membershipLevel;
+//         res.render('account/profile', {
+//             profileForm: profileForm,
+//             breadcrumbs: [
+//                 {
+//                     htmlValue: Resource.msg('global.home', 'common', null),
+//                     url: URLUtils.home().toString()
+//                 },
+//                 {
+//                     htmlValue: Resource.msg('page.title.myaccount', 'account', null),
+//                     url: URLUtils.url('Account-Show').toString()
+//                 }
+//             ]
+//         });
+//         next();
+//     }
+// );
